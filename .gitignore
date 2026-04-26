@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Flask/generated files
+instance/
+static/generated/*.png
+!static/generated/.gitkeep
+
+# macOS / editors
+.DS_Store
+.obsidian/
